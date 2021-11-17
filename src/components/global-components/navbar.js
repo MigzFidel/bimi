@@ -25,13 +25,13 @@ export default function Navigationbar() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="navbar-item">
-                        <Link class={location.pathname == "/bimi"? "nav-link active" :"nav-link"} to={"/bimi"}>HOME</Link>
+                        <Link class={location.pathname == "/bimi" || location.pathname == "/bimi/" ? "nav-link active" :"nav-link"} to={"/bimi"}>HOME</Link>
                     </li>
                     <li class="navbar-item">
-                        <Link class={location.pathname == "/bimi/about"? "nav-link active" :"nav-link"} to={"/bimi/about"}>ABOUT</Link >
+                        <Link class={location.pathname == "/bimi/about" ? "nav-link active" :"nav-link"} to={"/bimi/about"}>ABOUT</Link >
                     </li>
                     <li class="navbar-item">
-                        <Link class={location.pathname == "/bimi/menu"? "nav-link active" :"nav-link"} to={"/bimi/menu"}>MENU</Link>
+                        <Link class={location.pathname == "/bimi/menu" ? "nav-link active" :"nav-link"} to={"/bimi/menu"}>MENU</Link>
                     </li>
                 </ul>
                 <a class="nav-link" href="#">

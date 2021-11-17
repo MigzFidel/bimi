@@ -2,7 +2,7 @@ import React from 'react';
 import AboutData from './data/data.json';
 
 export default function About(){
-    let data = AboutData.About[0];
+    let data = AboutData.AboutData[0];
     return (
         <div>
             <div class="d-flex justify-content-center mt-5">
