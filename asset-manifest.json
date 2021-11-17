@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/bimi/static/css/main.159b3459.chunk.css",
-    "main.js": "/bimi/static/js/main.baf3af93.chunk.js",
-    "main.js.map": "/bimi/static/js/main.baf3af93.chunk.js.map",
-    "runtime-main.js": "/bimi/static/js/runtime-main.685cc737.js",
-    "runtime-main.js.map": "/bimi/static/js/runtime-main.685cc737.js.map",
+    "main.css": "/bimi/static/css/main.1c7cbdb4.chunk.css",
+    "main.js": "/bimi/static/js/main.ea2df68c.chunk.js",
+    "main.js.map": "/bimi/static/js/main.ea2df68c.chunk.js.map",
+    "runtime-main.js": "/bimi/static/js/runtime-main.5a0c386d.js",
+    "runtime-main.js.map": "/bimi/static/js/runtime-main.5a0c386d.js.map",
     "static/css/2.383c0125.chunk.css": "/bimi/static/css/2.383c0125.chunk.css",
-    "static/js/2.a982a11a.chunk.js": "/bimi/static/js/2.a982a11a.chunk.js",
-    "static/js/2.a982a11a.chunk.js.map": "/bimi/static/js/2.a982a11a.chunk.js.map",
-    "static/js/3.25a14328.chunk.js": "/bimi/static/js/3.25a14328.chunk.js",
-    "static/js/3.25a14328.chunk.js.map": "/bimi/static/js/3.25a14328.chunk.js.map",
+    "static/js/2.90f075df.chunk.js": "/bimi/static/js/2.90f075df.chunk.js",
+    "static/js/2.90f075df.chunk.js.map": "/bimi/static/js/2.90f075df.chunk.js.map",
+    "static/js/3.e4374ba7.chunk.js": "/bimi/static/js/3.e4374ba7.chunk.js",
+    "static/js/3.e4374ba7.chunk.js.map": "/bimi/static/js/3.e4374ba7.chunk.js.map",
     "index.html": "/bimi/index.html",
     "static/css/2.383c0125.chunk.css.map": "/bimi/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.159b3459.chunk.css.map": "/bimi/static/css/main.159b3459.chunk.css.map",
-    "static/js/2.a982a11a.chunk.js.LICENSE.txt": "/bimi/static/js/2.a982a11a.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/bimi/static/media/logo.6ce24c58.svg"
+    "static/css/main.1c7cbdb4.chunk.css.map": "/bimi/static/css/main.1c7cbdb4.chunk.css.map",
+    "static/js/2.90f075df.chunk.js.LICENSE.txt": "/bimi/static/js/2.90f075df.chunk.js.LICENSE.txt",
+    "static/media/Icon.3002460e.png": "/bimi/static/media/Icon.3002460e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.685cc737.js",
+    "static/js/runtime-main.5a0c386d.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.a982a11a.chunk.js",
-    "static/css/main.159b3459.chunk.css",
-    "static/js/main.baf3af93.chunk.js"
+    "static/js/2.90f075df.chunk.js",
+    "static/css/main.1c7cbdb4.chunk.css",
+    "static/js/main.ea2df68c.chunk.js"
   ]
 }
