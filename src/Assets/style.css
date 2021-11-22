@@ -13,6 +13,10 @@ body{
     color: #13b33d !important;
     cursor: pointer;
     }
+    .navbar{
+        background-color: black;
+        border-bottom: solid 1px white;
+    }
 
     nav li ~ li{
     border-left: .5px solid #00a82d;
@@ -114,3 +118,167 @@ body{
     width: 60%;
     }
 }
+
+body{
+    background-color: black;
+    color: #d5d5d5;
+    }
+
+    nav li{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1px;
+    }
+
+    .navbar-dark a:hover{
+    color: #13b33d !important;
+    cursor: pointer;
+    }
+
+    nav li ~ li{
+    border-left: .5px solid #00a82d;
+    }
+
+    .carousel-inner img{
+    height: 1080px;
+    width: auto;
+    }
+
+    .navbar-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    footer{
+    background-color: #242526;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    }
+
+    .padding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+
+    .card{
+    color: #ffffff;
+    background-color: black;
+    border-color: white;
+    }
+
+    .btn-success{
+    background-color: #00a82d;
+    border: 1px solid #00a82d;
+    }
+
+    .btn-success:hover{
+    background-color: transparent;
+    border: 1px solid #1db954;
+    }
+
+    .fa-shopping-cart{
+    font-size: 1.1em;
+    color: #808080;
+    padding-right: 15px;
+    }
+
+    .fa-shopping-cart:hover{
+    color: #ffffff;
+    }
+
+    hr.light{
+    border-top: 3px solid #ffffff;
+    width: 80%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    /* About Us */
+
+    .About .container{
+    padding: 100px 0px 70px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .About{
+    text-align: center;
+    }
+
+    .About h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-bottom: 20px;
+    }
+
+    .About p{
+    font-size: 18px;
+
+    padding: 0px 100px 0px 100px;
+    color: #ffffff;
+    
+    }
+
+    /* Gallery */
+
+    .photo-gallery {
+    color:#ffffff;
+    padding-bottom: 40px;
+   
+    }
+
+    .photo-gallery p {
+    color:#ffffff;
+    padding-bottom: 16px;
+    }
+
+    .photo-gallery h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-bottom: 10px;
+
+    padding-top:50px;
+    color:inherit;
+    }
+
+    .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+    }
+
+    .photo-gallery .intro p {
+
+    margin-bottom:0;
+    }
+
+    
+    .photo-gallery .item {
+    padding-bottom:30px;
+    }
+
+
+  
+    @media (max-width:767px) {
+
+        .photo-gallery .item {
+    text-align: center;
+    }
+
+    .photo-gallery h2 {
+        
+        margin-bottom:25px;
+        padding-top:25px;
+        font-size:50px;
+    }
+    }
+
+
+
+   
