@@ -12,7 +12,7 @@ export default function Navigationbar() {
     return (
         <nav class="navbar navbar-expand-md navbar-dark sticky-top">
             <div class="container-fluid">
-                <Link class="navbar-brand" to={"/bimi"}><img src={Icon} style={{height: "2rem", marginRight: "1rem"}}/>BIMI TAKOYAKI</Link>
+                <Link class="navbar-brand" to={"/"}><img src={Icon} style={{height: "2rem", marginRight: "1rem"}}/>BIMI TAKOYAKI</Link>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -27,24 +27,24 @@ export default function Navigationbar() {
                     <ul class="navbar-nav ms-auto">
                         <li class="navbar-item">
                             <Link
-                                class={location.pathname == "/bimi" || location.pathname == "/bimi/"
+                                class={location.pathname == "/" || location.pathname == "/bimi/"
                                 ? "nav-link active"
                                 : "nav-link"}
-                                to={"/bimi"}>HOME</Link>
+                                to={"/"}>HOME</Link>
                         </li>
                         <li class="navbar-item">
                             <Link
-                                class={location.pathname == "/bimi/about"
+                                class={location.pathname == "/about"
                                 ? "nav-link active"
                                 : "nav-link"}
-                                to={"/bimi/about"}>ABOUT</Link >
+                                to={"/about"}>ABOUT</Link >
                         </li>
                         <li class="navbar-item">
                             <Link
-                                class={location.pathname == "/bimi/menu"
+                                class={location.pathname == "/menu"
                                 ? "nav-link active"
                                 : "nav-link"}
-                                to={"/bimi/menu"}>MENU</Link>
+                                to={"/menu"}>MENU</Link>
                         </li>
                     </ul>
                     <a class="nav-link" href="#">

@@ -17,15 +17,15 @@ function Root() {
     const location = useLocation();
     useEffect(() => {
       if(location.pathname === "/"){
-        navigate("/bimi");
+        navigate("/");
       }
     }, [])
 
     return (
           <Routes>
-            <Route exact path="/bimi" element={< Home />}/>
-            <Route path="/bimi/menu" element={< Menu />}/>
-            <Route path="/bimi/about" element={< About />}/>
+            <Route exact path="/" element={< Home />}/>
+            <Route path="/menu" element={< Menu />}/>
+            <Route path="/about" element={< About />}/>
           </Routes>
     );
 }
