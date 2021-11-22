@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bimi/static/css/main.6d96038a.chunk.css",
-    "main.js": "/bimi/static/js/main.fb425da0.chunk.js",
-    "main.js.map": "/bimi/static/js/main.fb425da0.chunk.js.map",
+    "main.js": "/bimi/static/js/main.c067167e.chunk.js",
+    "main.js.map": "/bimi/static/js/main.c067167e.chunk.js.map",
     "runtime-main.js": "/bimi/static/js/runtime-main.1caa97ff.js",
     "runtime-main.js.map": "/bimi/static/js/runtime-main.1caa97ff.js.map",
     "static/css/2.383c0125.chunk.css": "/bimi/static/css/2.383c0125.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.a9b7c6b8.chunk.js",
     "static/css/main.6d96038a.chunk.css",
-    "static/js/main.fb425da0.chunk.js"
+    "static/js/main.c067167e.chunk.js"
   ]
 }
