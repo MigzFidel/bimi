@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
-import {Container, Offcanvas} from 'react-bootstrap';
 import Icon from '../../Assets/img/icon/Icon.png'
 import {useLocation} from 'react-router';
 
@@ -47,9 +45,6 @@ export default function Navigationbar() {
                                 to={"/menu"}>MENU</Link>
                         </li>
                     </ul>
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
                 </div>
             </div>
         </nav>

@@ -1,10 +1,19 @@
 import React from 'react';
+import BabyOct from '../../Assets/menu/BabyOctopus.png';
+import Chessbomb from '../../Assets/menu/Cheesebomb.png';
+import Combo1 from '../../Assets/menu/Combo1.png';
+import Combo2 from '../../Assets/menu/Combo2.png';
+import Octobits from '../../Assets/menu/Octobits.png';
+import Squid from '../../Assets/menu/Squid.png';
+import MenuHeader from '../../Assets/menu/Menu.jpg';
+import Beverages from '../../Assets/menu/Beverages.png';
+
 
 export default function Menu() {
     return (
         <div>
             <div class="d-flex justify-content-center mt-5">
-                <h1>Menu</h1>
+                <img src={MenuHeader} style={{marginLeft: 50, height: "20rem"}}></img>
             </div>
             <div class="container mt-5">
                 <h3 class="d-flex justify-content-center">Takoyaki</h3>
@@ -12,34 +21,31 @@ export default function Menu() {
                     <div class="col-xl-4 col-sm-12 mb-2">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Octobits Takoyaki</h5>
-                                <p class="card-text">Octobits, fresh vegetables & beni shōga, takoyaki sauce topped with real japanese mayo, aonori, bonito flakes and choice of chili</p>
+                                <img src={Octobits} width="100%"></img>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-sm-12 mb-2">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Squid Takoyaki</h5>
-                                <p class="card-text">Squid chunks, fresh vegetables & beni shōga, takoyaki sauce topped with real japanese mayo, aonori, bonito flakes and choice of chili</p>
+                                <img src={Squid} width="100%"></img>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-sm-12 mb-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Cheese bomb Takoyaki</h5>
-                                <p class="card-text">Bacon bits and fresh vegetables, takoyaki sauce topped with sliced quick melt cheese, cheese sauce, real japanese mayo, pork floss, aonori and choice of chili</p>
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src={Chessbomb} width="100%"></img>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="row">
+
                     <div class="col-xl-4 col-sm-12 mb-2">
                     <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Cheese bomb Takoyaki</h5>
-                                <p class="card-text">Bacon bits and fresh vegetables, takoyaki sauce topped with sliced quick melt cheese, cheese sauce, real japanese mayo, pork floss, aonori and choice of chili</p>
+                                <img src={BabyOct} width="100%"></img>
                             </div>
                         </div>
                     </div>
@@ -51,16 +57,26 @@ export default function Menu() {
                     <div class="col-xl-4 col-sm-12 mb-2">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Combo 1</h5>
-                                <p class="card-text">Squid Takoyaki & Thin Cut Fries topped with Cheese Sauce</p>
+                                <img src={Combo1} width="100%"></img>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-sm-12 mb-2">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Combo 2</h5>
-                                <p class="card-text">Cheese bomb Takoyaki & Thin Cut Fries topped with Cheese Sauce</p>
+                                <img src={Combo2} width="100%"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-xl-4"/>
+                    <div class="col-xl-4 col-sm-12 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src={Beverages} width="100%" ></img>
                             </div>
                         </div>
                     </div>

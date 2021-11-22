@@ -50,8 +50,8 @@ export default function Home() {
                                 <h5 class="card-title">Stay Safe Together</h5>
                                 <p class="card-text">Bimi Takoyaki × Ingat Angat</p>
                                 <p class="card-text">Visit Us on Facebook</p>
-                                <div class="d-grip gap-2 d-md-flex justify-content-md-start">
-                                    <a href="https://www.facebook.com/BIMITakoyakiMain/" class="btn btn-primary">Bimi Takoyaki</a>
+                                <div class="d-grip gap-2 d-flex justify-content-md-start">
+                                    <a href="https://www.facebook.com/BIMITakoyakiMain/" class="btn btn-primary mr-1">Bimi Takoyaki</a>
                                     <a
                                         href="https://www.facebook.com/ingatangatph/"
                                         class="btn btn-outline-primary">Ingat Angat</a>
